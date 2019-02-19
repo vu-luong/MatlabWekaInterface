@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="matlab2weka:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/matlab2weka_jar</output-path>
+    <root id="archive" name="matlab2weka.jar">
+      <element id="module-output" name="matlab2weka" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Machine_learning/2018_nov_12th/Online_Uncertainty/ONLINE/dist/lib/weka.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
