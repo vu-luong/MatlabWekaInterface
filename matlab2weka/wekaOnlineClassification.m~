@@ -33,8 +33,7 @@ function [  ] = wekaOnlineClassification( X, Y )
 %     
 %     % Create an java object
     model = weka.classifiers.trees.HoeffdingTree();
-    structure = dataWeka.stringFreeStructure();
-    model.buildClassifier(structure);
+    model.buildClassifier(dataWeka);
     
     for i = 0 : nInstances - 1
         probs = model.distributionForInstance(dataWeka.get(i));
